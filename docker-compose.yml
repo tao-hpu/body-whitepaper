@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    image: body-whitepaper:latest
+    container_name: body-whitepaper
+    restart: always
+    ports:
+      - "127.0.0.1:5195:80"
